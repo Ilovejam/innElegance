@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-
+import "@/styles/scss/main.scss";
 const MainMenu = () => {
   const pathname = usePathname();
   const [topMenu, setTopMenu] = useState("");

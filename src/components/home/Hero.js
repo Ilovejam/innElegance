@@ -10,6 +10,7 @@ import "swiper/css/free-mode";
 
 import Image from "next/image";
 import Link from "next/link";
+import "@/styles/scss/main.scss";
 
 
 // Hero bileşeni

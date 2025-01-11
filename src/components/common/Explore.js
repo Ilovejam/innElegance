@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import "@/styles/scss/main.scss";
 
 const Explore = () => {
   // Array of iconbox data

@@ -8,7 +8,7 @@ import PropertyListing from "@/components/home/PropertyListing";
 import Cta from "@/components/home/Cta";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import "../../../public/scss/main.scss";
+import "@/styles/scss/main.scss";
 
 // Dinamik olarak yüklenen bileşenler
 const Hero = dynamic(() => import("@/components/home/Hero"), { ssr: false });

@@ -4,7 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import 'react-modal-video/css/modal-video.min.css';
 //import "../../node_modules/react-modal-video/scss/modal-video.scss";
-import "../../public/scss/main.scss";
+import "@/styles/scss/main.scss"; // İkinci kodda
 import "rc-slider/assets/index.css";
 import { DM_Sans, Poppins } from "next/font/google";
 import { useEffect } from "react";

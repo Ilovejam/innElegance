@@ -1,5 +1,6 @@
 import Home_V5 from "./(home)/page";
 import Wrapper from "./layout-wrapper/wrapper";
+import "@/styles/scss/main.scss";
 
 export const metadata = {
   title: "Home || Villam365",
